@@ -1,0 +1,16 @@
+{
+  "name": "contrib-server",
+  "version": "1.0.0",
+  "description": "The server side applcation of contrib - a web app to track the open-source contribution of the people from an institution on github",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js src/server.js"
+  },
+  "author": "ankan17 <friendyankan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
+  }
+}
