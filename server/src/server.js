@@ -7,8 +7,10 @@ const port = 3000
 
 app.use(bodyParser.json())
 
-app.get('/', (req, res) => {
-	res.send("<h1>Hello World!</h1>")
+app.post('/register', (req, res) => {
+	res.send({
+		message: `Hello ${req.body.username}! Your user was registered successfully!`
+	})
 })
 
 app.listen(port)
