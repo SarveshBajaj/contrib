@@ -1,7 +1,7 @@
 {
-  "name": "contrib",
+  "name": "contrib-client",
   "version": "1.0.0",
-  "description": "A web app to track the open-source contribution of the people from an institution on github",
+  "description": "The client side application of contrib - a web app to track the open-source contribution of the people from an institution on github",
   "author": "ankan17 <friendyankan@gmail.com>",
   "private": true,
   "scripts": {
