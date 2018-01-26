@@ -9,8 +9,8 @@
     <br>
     <br>
     <input type="text"
-    name="registration_year"
-    v-model="registration_year"
+    name="reg_year"
+    v-model="reg_year"
     placeholder="Enter your year of registration in the college" />
     <br>
     <br>
@@ -24,7 +24,7 @@ export default {
   data () {
     return {
       username: '',
-      registration_year: ''
+      reg_year: ''
     }
   },
   methods: {

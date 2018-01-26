@@ -7,11 +7,17 @@
     "start": "./node_modules/nodemon/bin/nodemon.js src/server.js"
   },
   "author": "ankan17 <friendyankan@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ankan17/contrib.git"
+  },
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
-    "nodemon": "^1.14.11"
+    "nodemon": "^1.14.11",
+    "sequelize": "^4.32.1",
+    "sqlite3": "^3.1.13"
   }
 }
